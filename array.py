@@ -17,16 +17,9 @@ Sample Input:
 Sample Output:
 11
 ***
-# Read the size of the array
 n = int(input())
-
-# Initialize the sum to 0
 total_sum = 0
-
-# Read the next `n` number of elements and calculate the sum
 for _ in range(n):
     element = int(input())
     total_sum += element
-
-# Print the sum followed by "program"
 print(total_sum, "program")
