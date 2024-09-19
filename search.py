@@ -18,16 +18,9 @@ Sample Input 2:
 Sample Output 2:
 4 is not present in the given list
 ***
-# Read the size of the list
 size = int(input())
-
-# Read the list elements from the second input line
 elements = list(map(int, input().split()))
-
-# Read the search element
 search_element = int(input())
-
-# Check if the search element is in the list
 if search_element in elements:
     print(f"{search_element} is present in the given list")
 else:
