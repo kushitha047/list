@@ -15,19 +15,10 @@ Sample Input:
 Sample Output:
 1
 ***
-# Read the size of the list
 size = int(input())
-
-# Initialize an empty list
 elements = []
-
-# Read the next `size` number of elements and append them to the list
 for _ in range(size):
     element = int(input())
     elements.append(element)
-
-# Find the smallest number in the list
 smallest_number = min(elements)
-
-# Print the smallest number followed by "program"
 print(smallest_number, "program")
