@@ -15,16 +15,9 @@ Sample Input
 Output
 1 2 3 4
 ***
-# Read the size of the list
 size = int(input())
-
-# Initialize an empty list
 elements = []
-
-# Read the next `size` number of elements and append them to the list
 for _ in range(size):
     element = int(input())
     elements.append(element)
-
-# Print the list elements space-separated followed by "program"
 print(" ".join(map(str, elements)), "program")
