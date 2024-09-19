@@ -11,14 +11,7 @@ Sample Input:
 Sample Output:
 3
 ***
-# Read the list elements from the first input line
 elements = list(map(int, input().split()))
-
-# Read the value to count
 value_to_count = int(input())
-
-# Count the number of times the value is repeated in the list
 count = elements.count(value_to_count)
-
-# Print the count followed by "program"
 print(count, "program")
